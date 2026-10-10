@@ -1,5 +1,8 @@
-﻿# FlareSolverr on Render
+# Tillu Guard (24/7 Minecraft Server AFK Keeper)
 
-Deploy FlareSolverr as a free cloud container to bypass Cloudflare Turnstile challenges.
+Lightweight Node.js + Mineflayer client that maintains an active connection to the Minecraft server to prevent idle sleep mode.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/avinash893/flaresolverr-service)
+- **Target**: `legacy-7.hexacraft.fun:25587`
+- **Username**: `Tillu_Guard`
+- **Version**: `1.21.1`
+- **RAM Footprint**: ~35 MB (well under 512 MB limit)

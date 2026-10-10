@@ -1,11 +1,19 @@
-﻿services:
+services:
   - type: web
-    name: flaresolverr
+    name: tillu-guard
     env: docker
     plan: free
-    region: frankfurt
+    region: singapore
     dockerfilePath: Dockerfile
     autoDeploy: true
     envVars:
       - key: PORT
-        value: 8191
+        value: 8080
+      - key: MC_HOST
+        value: legacy-7.hexacraft.fun
+      - key: MC_PORT
+        value: "25587"
+      - key: MC_USERNAME
+        value: Tillu_Guard
+      - key: MC_VERSION
+        value: 1.21.1
